@@ -1,0 +1,198 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    padding: 30px;
+}
+
+body{
+    background: #90abb7;
+}
+
+.container{
+    margin: 25px 220px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: #dee2e7;
+    padding: 5px;
+    height: 500px;
+    width: 800px;
+}
+
+.tags{
+    display: flex;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.heading h2{
+    color: rgb(34, 34, 143);
+}
+
+.p-tags{
+    border: none;
+    padding: 8px 2opx;
+    border-radius: 5px;
+    background: white;
+    margin: 5px;
+    padding: 5px;
+    font-size: 10px;
+    color: gray;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.collection{
+    display: flex;
+    gap: 5px;
+    padding: 30px;
+    height: 300px;
+    width: 200px;
+}
+
+.album{
+    padding: 20px;
+    height: 250px;
+    width: 200px;
+    border: none;
+    background: white;
+    border-radius: 20px;
+
+}
+
+.small{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:10px;
+    margin-top: 10px;
+}
+
+.big{
+    width:200px;
+    height: 150px;
+    border: none;
+    border-radius: 20px;
+    background: url(images/p1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-holder{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    background: url(images/p2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.more-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.people1{
+    background: url(images/p1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.people2{
+    background: url(images/n1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.people3{
+    background: url(images/h1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.small1{
+    background: url(images/p2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.small2{
+    background: url(images/p3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.small3{
+    background: url(images/p4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.small4{
+    background: url(images/N2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.small5{
+    background: url(images/n3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.small6{
+    background: url(images/n4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.small7{
+    background: url(images/h2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.small8{
+    background: url(images/h3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.small9{
+    background: url(images/h4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.more-info p{
+    color: grey;
+    font-size: 13px;
+}
